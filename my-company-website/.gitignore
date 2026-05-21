@@ -1,0 +1,59 @@
+
+# Dependencies (ဒါတွေက အကြီးကြီးမို့လို့ လုံးဝမတင်ရပါ)
+node_modules/
+/dist
+/build
+
+# Local Environment Variables (ဒါတွေက ကိုယ်ပိုင် Secrets တွေမို့လို့ လုံးဝမတင်ရပါ)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor Files (VS Code ဆက်တင်တွေ GitHub ပေါ်မရှုပ်အောင်လို့ပါ)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package file
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven artifacts
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.nextDevelopment
+pom.xml.warn
+pom.xml.used
+release.properties
+
+# IntelliJ IDEA project files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Application Secrets
+/src/main/resources/application.properties (ဒီကောင်က Database key တွေပါရင် ဖျောက်ထားရပါမယ်)
